@@ -1,0 +1,6 @@
+{
+	"Fruits" : ["Orange", "Banana", "Mango", "Apple", "Graps"],
+	"Animals" :["Elephant", "Dog", "Cat", "Tiger", "Camel"],
+	"Colours" : ["Red", "Green", "Yellow", "Blue", "Black"],
+	"Numbers" : ["Twenty Four", "Eighty six", "Ninty nine", "Ninteen", "Sixty Five"]
+}

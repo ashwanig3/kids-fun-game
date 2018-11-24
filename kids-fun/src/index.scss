@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*=============================
+Start container
+=============================*/
+.start-wrapper {
+	background-color: yellow;
+	height: 100vh;
+}
+.start-container {
+	margin: 0 auto;
+	width: 30%;
+}
+.start-container h1 {
+	text-align: center;
+}
+.start-btn {
+	border:1px solid grey;
+	padding: 8px;
+	text-decoration: none;
+}
+
+/*==============================
+game container
+===============================*/
+.main-container {
+  background-color: yellow;
+  color: navy;	
+}
+.stuff-container {
+	margin: 0 auto;
+	width: 70%;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 10px;
+}
+.stuff {
+	border: 1px solid grey;
+	padding: 5px 6px;
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+	width: 70%;
+	margin-top: 150px;
+}
+th {
+	border-right: 2px solid grey;
+	padding-bottom: 200px;
+}
+h1 {
+	text-align: center;
+}
