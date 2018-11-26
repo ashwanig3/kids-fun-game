@@ -5,7 +5,9 @@ body {
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: grayscale;
+	background-attachment: fixed;
+	background-color: rgba(204, 103, 36, 0.9) ;
 }
 
 code {
@@ -17,50 +19,135 @@ code {
 Start container
 =============================*/
 .start-wrapper {
-	background-color: yellow;
+	background-color: #CC6724;
 	height: 100vh;
+	background-image: url("./1.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+	background-attachment: fixed;
 }
 .start-container {
 	margin: 0 auto;
 	width: 30%;
+
+	h1 {
+		font-family: 'Reenie Beanie', cursive;
+		font-size: 90px;
+		font-weight: 200;
+		text-align: left;
+		position: absolute;
+		top: 35%;
+		left: 13%;
+		// color: #F5CD9C;
+	}
+
 }
-.start-container h1 {
-	text-align: center;
-}
+
+// .start-container h1 {
+// 	text-align: center;
+// }
 .start-btn {
 	border:1px solid grey;
 	padding: 8px;
 	text-decoration: none;
+	position: absolute;
+	bottom: 40%;
+	left: 17%;
+	background-color: #CB6623;
+	width: 15%;
+	border-radius: 10px;
+	color: #F5CD9C; 
+	&:hover {
+		background-color: #F5CD9C;
+		color: black;
+	}
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 0.08rem;
+	font-weight: 600;
+	font-size: 60px;
+	// color: rgb(232, 236, 9);
+	text-align: center;
+	margin: 0;
+	letter-spacing: 0.1rem;
+}
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+.yellow {
+	color: yellow;
+}
+.blue {
+	color: blue;
 }
 
 /*==============================
 game container
 ===============================*/
 .main-container {
-  background-color: yellow;
-  color: navy;	
-}
+  
+	color: white;	
+
+	p{
+		margin-left: 200px;
+	}
+	// span {
+	// 	color: rgb(243, 19, 11);
+	// 	font-weight: 600;
+	// }
+}																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																															
 .stuff-container {
 	margin: 0 auto;
 	width: 70%;
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
-	grid-gap: 10px;
+	grid-gap: 20px;
 }
 .stuff {
-	border: 1px solid grey;
+	// border: 1px solid rgb(20, 12, 12);
 	padding: 5px 6px;
 	text-align: center;
+	font-weight: 600;
+	box-shadow: 0 0 7px .5px #bdc0c8;
+	// background-color: rgba(147, 181, 185, 0.959);
+	transition: all 0.5s ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+	}
 }
-table {
-	margin: 0 auto;
-	width: 70%;
-	margin-top: 150px;
+
+
+// ======================================
+// Tables
+// ======================================
+
+.category {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 100px;
 }
-th {
-	border-right: 2px solid grey;
-	padding-bottom: 200px;
-}
-h1 {
+.target-container {
+	border: 2px solid grey;
 	text-align: center;
+	height: 225px;
+	width: 100%;
+	
+}
+.category-heading {
+	font-size: 25px;
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+}
+.correct-ans {
+	box-shadow: none;
+	border: 1px solid grey;
+	width: 50%;
+	margin: 10px 0 0 70px;
+	color: rgb(231, 230, 222);
 }

@@ -1,6 +1,34 @@
 {
-	"Fruits" : ["Orange", "Banana", "Mango", "Apple", "Graps"],
-	"Animals" :["Elephant", "Dog", "Cat", "Tiger", "Camel"],
-	"Colours" : ["Red", "Green", "Yellow", "Blue", "Black"],
-	"Numbers" : ["Twenty Four", "Eighty six", "Ninty nine", "Ninteen", "Sixty Five"]
+	"Fruits" : [
+			{"value":"Orange","type":"fruits"},
+		 	{"value":"Banana","type":"fruits"},
+		  	{"value":"Mango","type":"fruits"},
+			{"value":"Apple","type":"fruits"},
+			{"value":"Graps","type":"fruits"}
+		],
+	"Animals": [
+		{"value":"Elephant", "type": "animals"},
+		{"value":"Dog", "type": "animals"},
+		{"value":"Cat", "type": "animals"},
+		{"value":"Tiger", "type": "animals"},
+		{"value":"Camel", "type": "animals"}
+
+	],
+	"Colours": [
+		{"value":"Red", "type": "colours"},
+		{"value":"Green", "type": "colours"},
+		{"value":"Yellow", "type": "colours"},
+		{"value":"Blue", "type": "colours"},
+		{"value":"Black", "type": "colours"}
+
+	],
+	"Numbers": [
+		{"value":"Twenty Four", "type": "numbers"},
+		{"value":"Eighty six", "type": "numbers"},
+		{"value":"Ninty nine", "type": "numbers"},
+		{"value":"Ninteen", "type": "numbers"},
+		{"value":"Sixty Five", "type": "numbers"}
+
+	]
+	
 }

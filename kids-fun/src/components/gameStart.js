@@ -20,8 +20,7 @@ class GameStart extends Component {
         return (
            <div className="start-wrapper">
            	<div className="start-container">
-	           	<h1>Kider Joy</h1>
-	           	<img src="./../../public/images/1.jpg" />
+               <h1 className="red">Ki<span className="green">nd</span><span className="yellow">er</span> <span className="red">J</span><span className="green">o</span><span className="yellow">y</span></h1>
 	           	<button className="start-btn" onClick={this.storeData}>Start Game</button>
            	</div>
            </div> 

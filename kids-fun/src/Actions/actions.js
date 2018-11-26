@@ -5,9 +5,16 @@ export function storeData(value) {
 	}
 }
 
-export function onDropElement(id) {
+export function onDropElement(value) {
 	return {
 		type: 'ON_DROP',
-		id
+		value
+	}
+}
+
+export function decreaseAttempt() {
+	console.log('fired')
+	return {
+		type : "DECREASE_ATTEMPT"
 	}
 }

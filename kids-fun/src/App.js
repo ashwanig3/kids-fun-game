@@ -13,11 +13,12 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Route path='/' exact component={GameStart} />
-          <Route path="/start" exact component={Kids} />
+          <Route path="/start" component={Kids} />
         </div>
       </BrowserRouter>
     );
   }
 }
+
 
 export default DragDropContext(HTML5Backend)(App);
