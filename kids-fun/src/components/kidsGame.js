@@ -23,7 +23,7 @@ handleDrop = (value) => {
 		const { items, attemptsLeft, score } = this.props;
 		// if(!items.length) return <Redirect to="/"/>
 		if(attemptsLeft === 0) {
-			alert('Game Over');
+			alert(`Game Over! Your score is ${score}`);
 			this.props.history.push('/');
 			return <div>''</div>
 		}

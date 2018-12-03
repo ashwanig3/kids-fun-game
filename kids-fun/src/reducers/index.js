@@ -62,7 +62,6 @@ export default (state=initState, action) => {
 		}
 		case 'ON_DROP': {
 			const itemsArr = [...state.data];
-			// const index = itemsArr.indexOf(action.value);
 
 			let valuesArr = []
 			for(const item of itemsArr) {
@@ -72,9 +71,6 @@ export default (state=initState, action) => {
 			const index = valuesArr.indexOf(action.value)
 
 			const item = itemsArr[index];
-
-			console.log(action.value);
-			console.log(item, 'item')
 
 			const droppedObject = {...state.dropObj};
 

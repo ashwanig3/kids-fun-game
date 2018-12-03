@@ -48,14 +48,14 @@ Start container
 // 	text-align: center;
 // }
 .start-btn {
-	border:1px solid grey;
+	border:1px solid #F5CD9C;
 	padding: 8px;
 	text-decoration: none;
 	position: absolute;
 	bottom: 40%;
-	left: 17%;
+	left: 15%;
 	background-color: #CB6623;
-	width: 15%;
+	width: 20%;
 	border-radius: 10px;
 	color: #F5CD9C; 
 	&:hover {
@@ -110,12 +110,10 @@ game container
 	grid-gap: 20px;
 }
 .stuff {
-	// border: 1px solid rgb(20, 12, 12);
-	padding: 5px 6px;
+	padding: 10px 6px;
 	text-align: center;
 	font-weight: 600;
 	box-shadow: 0 0 7px .5px #bdc0c8;
-	// background-color: rgba(147, 181, 185, 0.959);
 	transition: all 0.5s ease-in-out;
 	&:hover {
 		transform: scale(1.1);
@@ -143,6 +141,7 @@ game container
 	font-size: 25px;
 	font-weight: 600;
 	letter-spacing: 0.1rem;
+	text-decoration: underline;
 }
 .correct-ans {
 	box-shadow: none;
