@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
-import { DropTarget } from 'react-dnd'
+import React, { Component } from 'react';
+import { DropTarget } from 'react-dnd';
 import { compose } from 'redux';
-import { connect } from 'react-redux'
+import { connect } from 'react-redux';
 
 function collect(connect, monitor) {
   return {
     connectDropTarget: connect.dropTarget(),
     hovered: monitor.isOver(),
     item: monitor.getItem()
-}
+  };
 }
 
- class ColoursTable extends Component {
+class ColoursTable extends Component {
   render() {
     const { connectDropTarget, hovered, item, correctAns } = this.props;
     return connectDropTarget(
@@ -22,17 +22,17 @@ function collect(connect, monitor) {
             <div className="stuff correct-ans">{answer.value}</div>)
         }
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = (state) => {
   return {
     correctAns: state.dropObj.colours
-  }
-}
+  };
+};
 
 export default compose(
-  DropTarget("colours", {}, collect),
+  DropTarget('colours', {}, collect),
   connect(mapStateToProps)
-) (ColoursTable)
+) (ColoursTable);

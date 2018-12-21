@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -41,4 +41,22 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To learn React, check out the [React documentation](https://reactjs.org/). -->
+
+##Kinder-Joy
+
+A quiz application for kids. The concept of the game is to match some words to their appropriate box. the application is built using react DND(drag and drop) library. so they have to drag the words and drop into the correct box. there can be three wrong attempts. Every wrong attempt will reduce your attempts. and Every correct attempt will increase your score by 10.
+
+##Getting Started
+
+1. First, you need to clone the repo https://github.com/ashwanig3/kids-fun-game.git
+2. In command line, go to the directory using cd kids-fun
+3. Then start the project using npm start
+
+##Built with
+
+* reactJs
+* react DND(Drag And Drop) library
+* react-redux
+* react-router-dom
+* redux

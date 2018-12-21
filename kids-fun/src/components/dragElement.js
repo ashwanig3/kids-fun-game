@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import { DragSource } from 'react-dnd';
 import { compose } from 'redux';
-import {connect} from 'react-redux'
+import {connect} from 'react-redux';
 import { decreaseAttempt } from '../Actions/actions';
 
 let scoreCount = 0; 

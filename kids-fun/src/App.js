@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import GameStart from './components/gameStart'
-import { Route, BrowserRouter } from 'react-router-dom'
-import Kids from './components/kidsGame'
-import HTML5Backend from 'react-dnd-html5-backend'
-import { DragDropContext } from 'react-dnd'
+import GameStart from './components/gameStart';
+import { Route, BrowserRouter } from 'react-router-dom';
+import Kids from './components/kidsGame';
+import HTML5Backend from 'react-dnd-html5-backend';
+import { DragDropContext } from 'react-dnd';
 
 
 
