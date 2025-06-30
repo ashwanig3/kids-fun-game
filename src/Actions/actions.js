@@ -2,19 +2,19 @@ export function storeData(value) {
 	return {
 		type: 'STORE_DATA',
 		value
-	}
+	};
 }
 
 export function onDropElement(value) {
 	return {
 		type: 'ON_DROP',
 		value
-	}
+	};
 }
 
 export function decreaseAttempt() {
-	console.log('fired')
+	console.log('fired');
 	return {
-		type : "DECREASE_ATTEMPT"
-	}
+		type : 'DECREASE_ATTEMPT'
+	};
 }

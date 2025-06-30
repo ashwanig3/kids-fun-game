@@ -8,16 +8,16 @@ import { DragDropContext } from 'react-dnd';
 
 
 class App extends Component {
-  render() {
-    return (
-      <BrowserRouter>
-        <div className="App">
-          <Route path='/' exact component={GameStart} />
-          <Route path="/start" component={Kids} />
-        </div>
-      </BrowserRouter>
-    );
-  }
+	render() {
+		return (
+			<BrowserRouter>
+				<div className="App">
+					<Route path='/' exact component={GameStart} />
+					<Route path="/start" component={Kids} />
+				</div>
+			</BrowserRouter>
+		);
+	}
 }
 
 
